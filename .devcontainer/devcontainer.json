@@ -18,7 +18,6 @@
         "ghcr.io/eitsupi/devcontainer-features/jq-likes:2": {},
         "ghcr.io/michidk/devcontainers-features/bun:1": {},
         "ghcr.io/actcoding/devcontainer-features/moonrepo:1": {},
-        "ghcr.io/actcoding/devcontainer-features/phpactor:1": {},
         "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {}
     },
 
@@ -44,16 +43,15 @@
                 "mskelton.npm-outdated",
                 "onecentlin.laravel-blade",
                 "oven.bun-vscode",
-                "phpactor.vscode-phpactor",
+                "phpantom.phpantom",
+                "qwtel.sqlite-viewer",
                 "redhat.vscode-yaml",
                 "Wiensss.region-highlighter",
                 "xdebug.php-debug",
-                "YoavBls.pretty-ts-errors",
-                "qwtel.sqlite-viewer"
+                "YoavBls.pretty-ts-errors"
             ],
             "settings": {
-                "phpactor.executablePath": "/usr/local/bin/php",
-                "phpactor.path": "/opt/phpactor/bin/phpactor"
+                "phpantom.serverPath": "/usr/local/bin/phpantom_lsp"
             }
         }
     },
